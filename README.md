@@ -1,2 +1,2 @@
-# scottishgraeme.github.io
+# graeme.github.io
 graemearthur.com website
