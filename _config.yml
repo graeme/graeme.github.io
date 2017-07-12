@@ -11,7 +11,7 @@ name: Graeme Arthur
 email: graeme@graemearthur.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://graemearthur.com" # the base hostname & protocol for your site
+url: "http://graeme.github.io" # the base hostname & protocol for your site
 twitter_username: scottishgraeme
 github_username:  graeme
 linkedin_username: graemearthur
