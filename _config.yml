@@ -7,13 +7,14 @@
 
 # Site settings
 title: Graeme Arthur
+name: Graeme Arthur
 email: graeme@graemearthur.com
 description: > # this means to ignore newlines until "baseurl:"
-Software engineer with a passion for building beautiful, well tested applications with clean code and maintainable architecture. Expert in iOS, TDD and agile development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://graemearthur.com" # the base hostname & protocol for your site
 twitter_username: scottishgraeme
 github_username:  graeme
+linkedin_username: graemearthur
 
 # Build settings
 markdown: kramdown
