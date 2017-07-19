@@ -12,7 +12,13 @@ Software engineer specialising in iOS with a passion for building beautiful, wel
 ## Experience
 
 ### SoundCloud (2016 - Present)
-- Primarily working on the Listeners iOS app.
+Part of the "Listening" team. Working primarily on:
+- Playback
+- Stations
+- Collection
+- Recently Played / Listening History
+- Chromecast integration
+- Performance measurement
 
 ### Kotikan (2013 - 2016)
 - FanDuel iOS (acquired the company)
