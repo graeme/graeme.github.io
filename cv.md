@@ -7,12 +7,19 @@ permalink: /cv/
 
 ## Senior Engineer
 
-Software engineer specialising in iOS with a passion for building beautiful, well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, TDD & behaviour driven development and agile development process.
+Software engineer with a background in music and sound design. Passion for building beautiful, well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, TDD & behaviour driven development and agile development process.
 
 ## Experience
 
 ### SoundCloud (2016 - Present)
-Part of the "Listening" team. Working primarily on:
+iOS representative of the cross-platform Media Streaming team. Responsibilities include:
+- Technical ownership of the iOS app's streaming and queueing logic
+- Integration with our cross-platform C++ player
+- Third-party and Apple hardware playback integrations
+- Tracking and monitoring of audio performance, interruptions and errors
+- Providing input and assistance to features that might affect the playback UX
+
+Previously part of the Listening team, working primarily on:
 - Playback
 - Stations
 - Collection
@@ -33,10 +40,10 @@ Part of the "Listening" team. Working primarily on:
 - Developed a Windows game using Unity3D / FMOD in a 10 week game development competition in Dundee.
 
 ## Skills
-- **Languages:** Objective-C, Swift, Ruby, Python, Java, C#, SQL, (X)HTML, Javascript, CSS
+- **Languages:** Objective-C, Swift, Ruby, Scala, C++, Python, Java, C#, SQL, (X)HTML, Javascript, CSS
 - **Frameworks / SDKs:** Cocoa Touch, ReactiveCocoa, XCTest, Kiwi, KIF, CoreData, SQLite, Django, JQuery,
 JUnit, FMOD Ex
-- **Tools:** Xcode, AppCode, Git, Jenkins CI, Instruments, Fastlane, Danger, CocoaPods, Bundler, TestRail, IntelliJ IDEA
+- **Tools:** Xcode, AppCode, Git, Jenkins CI, Instruments, Fastlane, CMake, Danger, CocoaPods, Bundler, TestRail, IntelliJ IDEA
 
 ## Education
 
