@@ -40,10 +40,11 @@ Previously part of the Listening team, working primarily on:
 - Developed a Windows game using Unity3D / FMOD in a 10 week game development competition in Dundee.
 
 ## Skills
-- **Languages:** Objective-C, Swift, Ruby, Scala, C++, Python, Java, C#, SQL, (X)HTML, Javascript, CSS
-- **Frameworks / SDKs:** Cocoa Touch, ReactiveCocoa, XCTest, Kiwi, KIF, CoreData, SQLite, Django, JQuery,
-JUnit, FMOD Ex
-- **Tools:** Xcode, AppCode, Git, Jenkins CI, Instruments, Fastlane, CMake, Danger, CocoaPods, Bundler, TestRail, IntelliJ IDEA
+- **Languages:**
+  - **Expert:** Objective-C, Swift 
+  - **Working experience:** Ruby, SQL, C, C++, Python, Scala, Java, Javascript
+- **Frameworks / SDKs:** Cocoa Touch, ReactiveCocoa, XCTest, Kiwi, KIF, CoreData, SQLite
+- **Tools:** Xcode, AppCode, Git, Jenkins CI, Instruments, Fastlane, CMake, Danger, CocoaPods, Bundler, TestRail, IntelliJ, CLion
 
 ## Education
 
