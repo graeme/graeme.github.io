@@ -11,7 +11,7 @@ Software engineer with a background in music and sound design. Passion for build
 
 ## Experience
 
-### SoundCloud (2016 - Present)
+### [SoundCloud](https://itunes.apple.com/us/app/soundcloud-music-audio/id336353151?mt=8) (2016 - Present)
 iOS representative of the cross-platform Media Streaming team. Responsibilities include:
 - Technical ownership of the iOS app's streaming and queueing logic
 - Integration with our cross-platform C++ player
@@ -28,10 +28,10 @@ Previously part of the Listening team, working primarily on:
 - Performance measurement
 
 ### Kotikan (2013 - 2016)
-- FanDuel iOS (acquired the company)
-- WHO Health Stats iOS app from scratch to a tight deadline.
-- Standard Life UK transactional iOS app from scratch to a tight deadline.
-- Skyscanner iOS for just over a year. Responsible for adaptive UI refresh, analytics, A/B
+- [FanDuel](https://itunes.apple.com/us/app/fanduel-daily-fantasy-sports/id599664106?mt=8) iOS (acquired the company)
+- [WHO Health Stats](https://apps.apple.com/us/app/who-european-health-statistics/id1033850889) iOS app from scratch to a tight deadline.
+- [Standard Life UK](https://apps.apple.com/gb/app/standard-life/id485692917) transactional iOS app from scratch to a tight deadline.
+- [Skyscanner](https://itunes.apple.com/gb/app/skyscanner-flights-search/id415458524?mt=8) iOS for just over a year. Responsible for adaptive UI refresh, analytics, A/B
     testing, price alert push notifications, independently deployable social library and built test coverage through TDD/BDD.
 - Implemented automated iOS UI testing architecture building a screenshot diff library for use by the testing department.
 
