@@ -5,13 +5,15 @@ heading: Curriculum Vitae
 permalink: /cv/
 ---
 
-## Senior Engineer
+## Senior Software Engineer
 
 Software engineer with a background in music and sound design. Passion for building beautiful, well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, TDD & behaviour driven development and agile development process.
 
 ## Experience
 
-### [SoundCloud](https://itunes.apple.com/us/app/soundcloud-music-audio/id336353151?mt=8) (2016 - Present)
+### [SoundCloud](https://itunes.apple.com/us/app/soundcloud-music-audio/id336353151?mt=8) 
+#### Senior Software Engineer (2017 - Present)
+#### Software Engineer (2016 - 2017)
 iOS representative of the cross-platform Media Streaming team. Responsibilities include:
 - Technical ownership of the iOS app's streaming and queueing logic
 - Integration with our cross-platform C++ player
@@ -27,7 +29,8 @@ Previously part of the Listening team, working primarily on:
 - Chromecast integration
 - Performance measurement
 
-### Kotikan (2013 - 2016)
+### Kotikan 
+#### Software Engineer (2013 - 2016)
 - [FanDuel](https://itunes.apple.com/us/app/fanduel-daily-fantasy-sports/id599664106?mt=8) iOS (acquired the company)
 - [WHO Health Stats](https://apps.apple.com/us/app/who-european-health-statistics/id1033850889) iOS app from scratch to a tight deadline.
 - [Standard Life UK](https://apps.apple.com/gb/app/standard-life/id485692917) transactional iOS app from scratch to a tight deadline.
@@ -35,7 +38,8 @@ Previously part of the Listening team, working primarily on:
     testing, price alert push notifications, independently deployable social library and built test coverage through TDD/BDD.
 - Implemented automated iOS UI testing architecture building a screenshot diff library for use by the testing department.
 
-### Freelance Audio Designer & Engineer (2008 - 2012)
+### Freelance 
+#### Audio Designer & Engineer (2008 - 2012)
 - Composed music, designed sound effects and produced, edited and mastered audio on freelance projects.
 - Developed a Windows game using Unity3D / FMOD in a 10 week game development competition in Dundee.
 
