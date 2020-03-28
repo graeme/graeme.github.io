@@ -16,7 +16,7 @@ Software engineer with a background in music and sound design. Passion for build
 #### Software Engineer (2016 - 2017)
 iOS representative of the cross-platform Media Streaming team. Responsibilities include:
 - Technical ownership of the iOS app's streaming and queueing logic
-- Integration with our cross-platform C++ player
+- Development and maintenance of cross-platform C++ player
 - Third-party and Apple hardware playback integrations
 - Tracking and monitoring of audio performance, interruptions and errors
 - Providing input and assistance to features that might affect the playback UX
