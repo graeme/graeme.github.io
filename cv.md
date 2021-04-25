@@ -7,7 +7,7 @@ permalink: /cv/
 
 ## Senior Software Engineer
 
-Software engineer with a background in music and sound design. Passion for building beautiful, well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, TDD & behaviour driven development and agile development process.
+Software engineer with a background in music and sound design. Passion for building beautiful, well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, functional reactive programming, TDD and agile development process.
 
 ## Experience
 
