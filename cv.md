@@ -52,13 +52,13 @@ Previously part of the Listening team, working primarily on:
 ## Education
 
 ### University of Glasgow (2012 - 2013)
-**MSc with Distinction in Software Development** ,
+**MSc with Distinction in Software Development**
 
 ### University of Edinburgh (2009 - 2011)
 **MSc in Sound Design**
 
 ### Newcastle University (2005 - 2008)
-**BA with 2:1 Honours in Music**,
+**BA with 2:1 Honours in Music**
 
 ### Other Interests
 Playing guitar, listening to music, music production, turntablism, reading about politics, cycling, swimming,
