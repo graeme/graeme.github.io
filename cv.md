@@ -40,8 +40,7 @@ Previously part of the Listening team, working primarily on:
 
 ### Freelance 
 #### Audio Designer & Engineer (2008 - 2012)
-- Composed music, designed sound effects and produced, edited and mastered audio on freelance projects.
-- Developed a Windows game using Unity3D / FMOD in a 10 week game development competition in Dundee.
+- Music production, sound design, editing, mastering and programming for games, film and theatre.
 
 ## Skills
 - **Languages:**
@@ -55,13 +54,8 @@ Previously part of the Listening team, working primarily on:
 ### University of Glasgow (2012 - 2013)
 **MSc with Distinction in Software Development** ,
 
-- _MSc Development Project:_ Developed an iOS app for the university alongside the Estates and IT Services
-    departments to solve the problem of students and staff navigating between buildings and teaching rooms.
-
 ### University of Edinburgh (2009 - 2011)
 **MSc in Sound Design**
-
-- _MSc Sound Design Project:_ First-person audio game with 5.1 audio programmed in C# using Unity3D.
 
 ### Newcastle University (2005 - 2008)
 **BA with 2:1 Honours in Music**,
