@@ -7,27 +7,38 @@ permalink: /cv/
 
 ## Senior Software Engineer
 
-Software engineer with a background in music and sound design. Passion for building beautiful, well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, functional reactive programming, TDD and agile development process.
+Senior software engineer with speciality in Apple platforms. Passion for building well tested applications with clean code and maintainable architecture. Professional and academic experience in object-oriented design, functional reactive programming, TDD and agile development process.
 
 ## Experience
+
+### [DuckDuckGo](https://apps.apple.com/gb/app/duckduckgo-private-browser/id663592361) 
+#### Senior Software Engineer (2022 - Present)
+Part of the Apple team building and maintaining our iOS and macOS apps
+- Core member of the VPN product objective
+- Introduced feature flagging to both platforms
+- Introduced internal TestFlight alpha build deployments to iOS
+
+### [Mimi Hearing Technologies](https://mimi.io/) 
+#### iOS Tech Lead (February - August 2022)
+Provided technical vision and leadership for the iOS SDK while also contributing individually
+- Introduced feature flagging and release train processes
+- Coordinated with partners on SDK requirements
+- Introduced architectural and code style standards to reduce inter-team friction
 
 ### [SoundCloud](https://itunes.apple.com/us/app/soundcloud-music-audio/id336353151?mt=8) 
 #### Senior Software Engineer (2017 - Present)
 #### Software Engineer (2016 - 2017)
 iOS representative of the cross-platform Media Streaming team. Responsibilities include:
-- Technical ownership of the iOS app's streaming and queueing logic
-- Development and maintenance of cross-platform C++ player
+- Technical ownership of the iOS app's streaming and queueing logic + Playback library
+- Development and maintenance of cross-platform C++ player library
 - Third-party and Apple hardware playback integrations
 - Tracking and monitoring of audio performance, interruptions and errors
 - Providing input and assistance to features that might affect the playback UX
 
-Previously part of the Listening team, working primarily on:
+Previously part of the Listening team, including work on:
 - Playback
-- Stations
 - Collection
-- Recently Played / Listening History
 - Chromecast integration
-- Performance measurement
 
 ### Kotikan 
 #### Software Engineer (2013 - 2016)
@@ -61,7 +72,7 @@ Previously part of the Listening team, working primarily on:
 **BA with 2:1 Honours in Music**
 
 ### Other Interests
-Playing guitar, listening to music, music production, turntablism, reading about politics, cycling, swimming,
+Singing, playing guitar & violin, listening to music, music production, DJing, reading about politics, cycling,
 wakeboarding, snowboarding.
 
 **References and more detailed employment history available on request**
