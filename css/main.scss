@@ -6,7 +6,8 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font-family: "Orbitron", "Inter", "Segoe UI", sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -14,16 +15,21 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #f4f4ff;
+$background-color: #151528;
+$brand-color:      #c9aaff;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:       #aca9c8;
+$grey-color-light: #2a2743;
+$grey-color-dark:  #ecebff;
+$muted-color:      #b7b4d2;
+$accent-blue:      #7dd8f8;
+$accent-pink:      #ffb3d1;
+$glass-surface:    rgba(201, 170, 255, 0.1);
+$surface-border:   rgba(201, 170, 255, 0.28);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1080px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

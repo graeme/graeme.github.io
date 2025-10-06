@@ -2,9 +2,720 @@
 layout: default
 ---
 
-<div class="home">
-  <p>Software engineer with a passion for building beautiful,
-  well tested applications with clean code and maintainable architecture.
-  Expert in iOS, TDD and agile development.</p>
+<main class="single-page">
+  <section id="hero" class="section section-hero">
+    <div class="section-inner">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Graeme Arthur</p>
+          <h1>Software Engineer</h1>
+          <p class="lead">
+            Senior software engineer with 12+ years of experience specialising in Apple platforms, building products in privacy and audio, with trusted user experiences and high-impact native systems for the greater good.
+          </p>
+          <div class="hero-links hero-links--icon-buttons">
+            <a class="social-button social-button--github" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+              <span class="social-button__icon" aria-hidden="true">{% include icon-github.svg %}</span>
+            </a>
+            <a class="social-button social-button--linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile">
+              <span class="social-button__icon" aria-hidden="true">{% include icon-linkedin.svg %}</span>
+            </a>
+            <a class="social-button social-button--email" href="mailto:{{ site.email | default: 'graeme@protonmail.com' }}" data-open-contact-email-modal aria-haspopup="dialog" aria-controls="contact-email-modal" aria-label="Send email">
+              <span class="social-button__icon" aria-hidden="true">{% include icon-mail.svg %}</span>
+            </a>
+            <a class="social-button social-button--cv" href="/files/graeme_arthur_cv_2026.pdf" download="graeme_arthur_cv_2026.pdf" aria-label="Download CV PDF">
+              <span class="social-button__icon" aria-hidden="true">{% include icon-download.svg %}</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="/images/profile/graeme_shadow.png" alt="Graeme Arthur profile photo">
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="about" class="section">
+    <div class="section-inner">
+      <h2>About</h2>
+      <div class="glass-card">
+      <p>
+        I’m a senior software engineer with 12+ years of experience building native products for iOS and macOS, from early-stage launches to large-scale apps used by tens of millions of people.
+      </p>
+      <p>
+        My work spans privacy products, audio streaming, subscription systems, SDK architecture, and cross-platform infrastructure. I care deeply about thoughtful engineering, measurable product outcomes, and building software that aligns with user wellbeing.
+      </p>
+      <p>
+        I collaborate closely with product, design, backend, web, Android, and infrastructure teams to ship robust features with strong testing, observability, and release practices.
+      </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item glass-card">
+          <h3>DuckDuckGo</h3>
+          <p class="meta">Senior Software Engineer (Sep 2022 - Nov 2025)</p>
+          <p>Senior engineer on the Apple platforms team, shipping privacy-focused iOS and macOS experiences to tens of millions of users.</p>
+          <details class="experience-projects">
+            <summary>
+              <span>View Projects (7)</span>
+              <span class="projects-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h4>Network Protection</h4>
+                <p>Led architecture and rollout of the iOS VPN, a core part of DuckDuckGo’s first paid subscription bundle.</p>
+                <ul class="project-tags">
+                  <li>Swift</li>
+                  <li>NetworkExtension</li>
+                  <li>Subscription Platform</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>DuckPlayer</h4>
+                <p>Contributed to DuckPlayer by inspecting and analyzing web content to enable privacy-respecting Picture-in-Picture video experiences.</p>
+                <ul class="project-tags">
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>PiP</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Sync &amp; Data Import</h4>
+                <p>Built and evolved sync and import stacks, then led data-import improvements that increased adoption 3-4x and reduced macOS import failures by over 50%.</p>
+                <ul class="project-tags">
+                  <li>Swift</li>
+                  <li>macOS</li>
+                  <li>Retention</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Sync</h4>
+                <p>Built and evolved sync experience and hardened security by improving key exchange flow while improving overall reliability.</p>
+                <ul class="project-tags">
+                  <li>Security</li>
+                  <li>Key Exchange</li>
+                  <li>Sync</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Password Manager &amp; Autofill</h4>
+                <p>Partnered with web engineers to review/debug TypeScript and design robust frontend-native messaging for password and autofill flows.</p>
+                <ul class="project-tags">
+                  <li>TypeScript</li>
+                  <li>Autofill</li>
+                  <li>Cross-team</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Cross-Platform Delivery</h4>
+                <p>Led shared feature-flag infrastructure across iOS and macOS, then supported release and incident rotations with strong observability.</p>
+                <ul class="project-tags">
+                  <li>Feature Flags</li>
+                  <li>Grafana</li>
+                  <li>Elasticsearch</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Alpha &amp; Nightly Distribution</h4>
+                <p>Led creation of alpha CI builds and internal TestFlight distribution from scratch to speed up feedback before public release.</p>
+                <ul class="project-tags">
+                  <li>Jenkins</li>
+                  <li>TestFlight</li>
+                  <li>Release Engineering</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>Mimi Hearing Technologies</h3>
+          <p class="meta">iOS Tech Lead (Feb 2022 - Aug 2022)</p>
+          <p>Led iOS SDK architecture and engineering for a hearing health company serving international B2B partners.</p>
+          <details class="experience-projects">
+            <summary>
+              <span>View Projects (3)</span>
+              <span class="projects-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h4>SDK Architecture &amp; Standards</h4>
+                <p>Defined modular architecture, coding standards, and testing practices to improve integration quality and long-term maintainability.</p>
+                <ul class="project-tags">
+                  <li>Swift</li>
+                  <li>SDK Design</li>
+                  <li>Testing Standards</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Release Reliability</h4>
+                <p>Introduced internal feature-flag and release-train systems for safer deployment and faster partner-focused iteration.</p>
+                <ul class="project-tags">
+                  <li>Feature Flags</li>
+                  <li>Release Trains</li>
+                  <li>Partner Integrations</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Technical Leadership</h4>
+                <p>Provided technical vision while staying hands-on, aligning cross-functional teams and external partners on practical integration requirements.</p>
+                <ul class="project-tags">
+                  <li>Tech Leadership</li>
+                  <li>B2B Integrations</li>
+                  <li>Delivery</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>SoundCloud</h3>
+          <p class="meta">Senior Software Engineer (2016 - 2021)</p>
+          <p>iOS representative for streaming and playback infrastructure, owning core player and queueing systems across app generations.</p>
+          <details class="experience-projects">
+            <summary>
+              <span>View Projects (9)</span>
+              <span class="projects-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h4>Playback Platform</h4>
+                <p>Led the playback experience for iOS, owning queueing and playback library behavior across major app surfaces.</p>
+                <ul class="project-tags">
+                  <li>AVFoundation</li>
+                  <li>Swift</li>
+                  <li>iOS</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Shared C++ Streaming Engine</h4>
+                <p>Worked on the cross-platform C++ streaming engine ("Flipper"), including CMake integration to produce an iOS framework.</p>
+                <ul class="project-tags">
+                  <li>C++</li>
+                  <li>CMake</li>
+                  <li>Cross-platform</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Hardware Playback Integrations</h4>
+                <p>Integrated and maintained AVFoundation, AirPlay, Chromecast, and CarPlay playback paths across app releases.</p>
+                <ul class="project-tags">
+                  <li>AVFoundation</li>
+                  <li>Chromecast</li>
+                  <li>CarPlay</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Chromecast</h4>
+                <p>Worked across iOS and TypeScript layers, collaborated with Google on Chromecast integration.</p>
+                <ul class="project-tags">
+                  <li>Chromecast</li>
+                  <li>TypeScript</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Ads</h4>
+                <p>Implemented optimized ad-content preloading that increased ad revenue by 7%, supported by monitoring and product dashboards.</p>
+                <ul class="project-tags">
+                  <li>A/B Testing</li>
+                  <li>Monitoring</li>
+                  <li>Revenue Impact</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Listening Team Features</h4>
+                <p>Built and maintained Playback, Stations, and Recently Played features across iOS.</p>
+                <ul class="project-tags">
+                  <li>iOS</li>
+                  <li>User Engagement</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Subscription Product</h4>
+                <p>Built onboarding, upgrade and downgrade flows for SoundCloud’s first subscription offering with data-led retention improvements.</p>
+                <ul class="project-tags">
+                  <li>StoreKit</li>
+                  <li>Experimentation</li>
+                  <li>Retention</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Engineering Standards</h4>
+                <p>Led Swift testing and mocking standards, contributed to modular architecture efforts, and supported UI automation patterns.</p>
+                <ul class="project-tags">
+                  <li>XCTest</li>
+                  <li>Snapshot Testing</li>
+                  <li>Modularization</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Backend, Data &amp; Reliability</h4>
+                <p>Built Scala BFF features, maintained streaming anomaly monitoring, supported Airflow ETLs and cloud dashboards, and contributed to backend maintenance rotation.</p>
+                <ul class="project-tags">
+                  <li>Scala</li>
+                  <li>Airflow</li>
+                  <li>AWS/GCP</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>Kotikan / FanDuel</h3>
+          <p class="meta">Software Engineer (2013 - 2016)</p>
+          <p>Built consumer iOS products across travel, fintech, public-health, and sports platforms, while establishing quality-focused engineering practices.</p>
+          <details class="experience-projects">
+            <summary>
+              <span>View Projects (4)</span>
+              <span class="projects-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="projects-grid">
+              <article class="project-card">
+                <h4>Skyscanner iOS</h4>
+                <p>Contributed to adaptive layouts, price-alert notifications, and shared authentication components used across multiple apps.</p>
+                <ul class="project-tags">
+                  <li>Objective-C</li>
+                  <li>Auto Layout</li>
+                  <li>Push Notifications</li>
+                  <li>SSO</li>
+                  <li>OpenGL</li>
+                  <li>TDD/BDD</li>
+                  <li>Jenkins</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>Standard Life iOS</h4>
+                <p>Built a transactional finance app from scratch under strict security and accessibility requirements.</p>
+                <ul class="project-tags">
+                  <li>MVP</li>
+                  <li>Clean Architecture</li>
+                  <li>Accessibility</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>WHO Health Stats</h4>
+                <p>Built an iOS app from scratch to visualize global health metrics across interactive maps and charts under tight deadlines.</p>
+                <ul class="project-tags">
+                  <li>Data Visualization</li>
+                  <li>Interactive Charts</li>
+                  <li>iOS</li>
+                </ul>
+              </article>
+              <article class="project-card">
+                <h4>FanDuel iOS</h4>
+                <p>Delivered KYC identity verification and internal UI testing tooling, then chose to move on due to ethical concerns around gambling.</p>
+                <ul class="project-tags">
+                  <li>KYC</li>
+                  <li>A/B Testing</li>
+                  <li>Snapshot Tooling</li>
+                </ul>
+              </article>
+            </div>
+          </details>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>Freelance Audio Designer &amp; Engineer</h3>
+          <p class="meta">2008 - 2012</p>
+          <p>Produced, edited, mastered, and programmed audio for games, film, and theatre for clients.</p>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>The Beat Suite</h3>
+          <p class="meta">Audio Editor &amp; Designer (2007 - 2008)</p>
+          <p>Designed ad jingles and edited/mastered content for a production audio library.</p>
+        </article>
+        <article class="timeline-item glass-card">
+          <h3>Dare to Be Digital — Dundee</h3>
+          <p class="meta">Programmer &amp; Audio Designer (2010)</p>
+          <p>Part of Team Abnormal Creations, shipping a Unity/FMOD game prototype in a 10-week intensive competition. Contributed C# gameplay/audio programming and sound design in Unity during a time-boxed team build.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="apps" class="section">
+    <div class="section-inner">
+      <h2>Apps</h2>
+      <div class="apps-grid">
+        <article class="app-item" data-app-name="DuckDuckGo">
+          <button class="app-shot-trigger" type="button" aria-label="Open DuckDuckGo screenshots">
+            <figure class="app-shot">
+              <img src="/images/projects/ddg_import_mac_MOCKUP.png" alt="DuckDuckGo import on macOS">
+            </figure>
+          </button>
+          <div class="app-company glass-card">
+            <div class="app-heading">
+              <h3>DuckDuckGo</h3>
+              <p class="meta">Platforms: iPhone, iPad, macOS</p>
+              <p>iOS VPN experience, sync and import user journeys, DuckPlayer web-to-native Picture-in-Picture, and password manager/autofill flows.</p>
+              <div class="app-actions">
+                <a href="https://apps.apple.com/app/id663592361" target="_blank" rel="noopener noreferrer">App Store</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-sources">
+            <img src="/images/projects/ddg_import_mac.png" alt="DuckDuckGo import on macOS">
+            <img src="/images/projects/ddg_sync_mac.png" alt="DuckDuckGo sync on macOS">
+            <img src="/images/projects/ddg_vpn_iphone.PNG" alt="DuckDuckGo VPN on iPhone">
+            <img src="/images/projects/ddg_sync_iphone.PNG" alt="DuckDuckGo sync on iPhone">
+            <img src="/images/projects/ddg_vpn-widget_iphone.PNG" alt="DuckDuckGo VPN Widget on iPhone">
+            <img src="/images/projects/ddg_vpn_locations_iphone.PNG" alt="DuckDuckGo VPN Locations on iPhone">
+          </div>
+        </article>
+
+        <article class="app-item" data-app-name="Mimi">
+          <button class="app-shot-trigger" type="button" aria-label="Open Mimi screenshots">
+            <figure class="app-shot">
+              <img src="/images/projects/mimi_1_iphone_MOCKUP.png" alt="Mimi Hearing Test on iPhone">
+            </figure>
+          </button>
+          <div class="app-company glass-card">
+            <div class="app-heading">
+              <h3>Mimi</h3>
+              <p class="meta">Platforms: iPhone</p>
+              <p>Hearing-test and hearing-profile product experiences supported by robust SDK integration paths for partner apps.</p>
+              <div class="app-actions">
+                <a href="https://apps.apple.com/app/id932496645" target="_blank" rel="noopener noreferrer">App Store</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-sources">
+            <img src="/images/projects/mimi_1_iphone.PNG" alt="Mimi Hearing Test on iPhone">
+            <img src="/images/projects/mimi_2_iphone.PNG" alt="Mimi SDK Test Screen on iPhone">
+          </div>
+        </article>
+
+        <article class="app-item" data-app-name="SoundCloud">
+          <button class="app-shot-trigger" type="button" aria-label="Open SoundCloud screenshots">
+            <figure class="app-shot">
+              <img src="/images/projects/sc_player_1_iphone_MOCKUP.png" alt="SoundCloud Player on iPhone">
+            </figure>
+          </button>
+          <div class="app-company glass-card">
+            <div class="app-heading">
+              <h3>SoundCloud</h3>
+              <p class="meta">Platforms: iPhone, iPad</p>
+              <p>Playback and queueing, Stations, Collection, listening history, Chromecast/AirPlay/CarPlay support, and subscription purchase/onboarding/downgrade journeys.</p>
+              <div class="app-actions">
+                <a href="https://apps.apple.com/app/id336353151" target="_blank" rel="noopener noreferrer">App Store</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-sources">
+            <img src="/images/projects/sc_player_1_iphone.PNG" alt="SoundCloud Player on iPhone">
+            <img src="/images/projects/sc_player_2_iphone.PNG" alt="SoundCloud Player detail on iPhone">
+            <img src="/images/projects/sc_home_iphone.PNG" alt="SoundCloud Home on iPhone">
+            <img src="/images/projects/sc_collection_iphone.PNG" alt="SoundCloud Collection on iPhone">
+          </div>
+        </article>
+
+        <article class="app-item" data-app-name="Skyscanner">
+          <button class="app-shot-trigger" type="button" aria-label="Open Skyscanner screenshots">
+            <figure class="app-shot">
+              <img src="/images/projects/ss_prices_ipad_MOCKUP.png" alt="Skyscanner Price Comparison on iPad">
+            </figure>
+          </button>
+          <div class="app-company glass-card">
+            <div class="app-heading">
+              <h3>Skyscanner</h3>
+              <p class="meta">Platforms: iPhone, iPad</p>
+              <p>Adaptive iOS UI refresh for new size classes, fare price alerts, globe exploration interactions, and shared auth login journeys.</p>
+              <div class="app-actions">
+                <a href="https://apps.apple.com/app/id415458524" target="_blank" rel="noopener noreferrer">App Store</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-sources">
+            <img src="/images/projects/ss_prices_ipad.PNG" alt="Skyscanner Price Comparison on iPad">
+            <img src="/images/projects/ss_globe_ipad.PNG" alt="Skyscanner Globe on iPad">
+            <img src="/images/projects/ss_recents_iphone.PNG" alt="Skyscanner Recent Searches on iPhone">
+            <img src="/images/projects/ss_cal_iphone.PNG" alt="Skyscanner Calendar on iPhone">
+          </div>
+        </article>
+
+        <article class="app-item" data-app-name="FanDuel">
+          <button class="app-shot-trigger" type="button" aria-label="Open FanDuel screenshots">
+            <figure class="app-shot">
+              <img src="/images/projects/fd_recents_ipad_MOCKUP.png" alt="FanDuel recents on iPad">
+            </figure>
+          </button>
+          <div class="app-company glass-card">
+            <div class="app-heading">
+              <h3>FanDuel</h3>
+              <p class="meta">Platforms: iPhone, iPad</p>
+              <p>KYC identity verification and navigation pattern prototypes evaluated through A/B testing in the daily fantasy app.</p>
+              <div class="app-actions">
+                <a href="https://apps.apple.com/app/id568168374" target="_blank" rel="noopener noreferrer">App Store</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-sources">
+            <img src="/images/projects/fd_recents_ipad.PNG" alt="FanDuel recents on iPad">
+          </div>
+        </article>
+
+        <article class="app-item" data-app-name="Standard Life">
+          <button class="app-shot-trigger" type="button" aria-label="Open Standard Life screenshots">
+            <figure class="app-shot">
+              <img src="/images/projects/sl_topup_iphone_MOCKUP.png" alt="Standard Life Top-up on iPhone">
+            </figure>
+          </button>
+          <div class="app-company glass-card">
+            <div class="app-heading">
+              <h3>Standard Life</h3>
+              <p class="meta">Platforms: iPhone</p>
+              <p>Pension and investment plan views, in-app top-up journeys, and secure transactional user flows designed for accessibility.</p>
+              <div class="app-actions">
+                <a href="https://apps.apple.com/gb/app/standard-life/id485692917" target="_blank" rel="noopener noreferrer">App Store</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-sources">
+            <img src="/images/projects/sl_topup_iphone.PNG" alt="Standard Life Top-up on iPhone">
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <article class="glass-card skill-panel">
+          <h3>Core Languages</h3>
+          <ul class="skill-tags">
+            <li>Swift</li>
+            <li>Objective-C</li>
+            <li>C++</li>
+            <li>TypeScript/JavaScript</li>
+            <li>HTML</li>
+            <li>React Native (minor)</li>
+            <li>Ruby</li>
+            <li>Python</li>
+            <li>Scala</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>C#</li>
+          </ul>
+        </article>
+        <article class="glass-card skill-panel">
+          <h3>Apple &amp; Mobile</h3>
+          <ul class="skill-tags">
+            <li>SwiftUI</li>
+            <li>UIKit</li>
+            <li>AppKit</li>
+            <li>Cocoa Touch</li>
+            <li>Foundation</li>
+            <li>Combine</li>
+            <li>StoreKit</li>
+            <li>Network Extension</li>
+            <li>WireGuard</li>
+            <li>WebKit</li>
+            <li>SafariServices</li>
+            <li>Swift Concurrency</li>
+            <li>NotificationCenter</li>
+            <li>XPC</li>
+            <li>Widgets</li>
+            <li>Activities</li>
+            <li>CoreData</li>
+            <li>SQLite</li>
+          </ul>
+        </article>
+        <article class="glass-card skill-panel">
+          <h3>Architecture</h3>
+          <ul class="skill-tags">
+            <li>MVVM(-C)</li>
+            <li>VIPER</li>
+            <li>MVP</li>
+            <li>Clean Architecture</li>
+            <li>Modular Frameworks</li>
+            <li>SOLID</li>
+            <li>Repository Pattern</li>
+            <li>Feature Flag Infrastructure</li>
+          </ul>
+        </article>
+        <article class="glass-card skill-panel">
+          <h3>Testing &amp; Quality</h3>
+          <ul class="skill-tags">
+            <li>XCTest</li>
+            <li>Quick/Nimble</li>
+            <li>Specta/Expecta</li>
+            <li>KIF</li>
+            <li>OCMock</li>
+            <li>OCMockito</li>
+            <li>Kiwi</li>
+            <li>TDD</li>
+            <li>BDD</li>
+            <li>Snapshot Testing</li>
+            <li>UI Testing</li>
+            <li>Page Object Model</li>
+          </ul>
+        </article>
+        <article class="glass-card skill-panel">
+          <h3>Tools &amp; Platforms</h3>
+          <ul class="skill-tags">
+            <li>Xcode</li>
+            <li>Cursor</li>
+            <li>Claude</li>
+            <li>Git</li>
+            <li>GitHub Actions</li>
+            <li>Bitrise</li>
+            <li>Circle CI</li>
+            <li>Fastlane</li>
+            <li>Jenkins</li>
+            <li>TestFlight</li>
+            <li>Grafana / Elasticsearch</li>
+            <li>Google Data Platform</li>
+            <li>AWS</li>
+            <li>Prometheus</li>
+            <li>Buddybuild</li>
+            <li>GoCD</li>
+            <li>Firebase</li>
+            <li>Danger</li>
+            <li>CocoaPods</li>
+            <li>Bundler</li>
+            <li>CMake</li>
+            <li>TestRail</li>
+            <li>Feature Flag Systems</li>
+          </ul>
+        </article>
+        <article class="glass-card skill-panel">
+          <h3>Audio, Streaming &amp; Data</h3>
+          <ul class="skill-tags">
+            <li>AVFoundation</li>
+            <li>AirPlay</li>
+            <li>Chromecast</li>
+            <li>CarPlay</li>
+            <li>Core Audio</li>
+            <li>C++ Streaming Engines</li>
+            <li>FMOD</li>
+            <li>GCP</li>
+            <li>Airflow</li>
+            <li>Elasticsearch</li>
+            <li>Monitoring Microservices</li>
+            <li>Data-informed Delivery</li>
+          </ul>
+        </article>
+        <article class="glass-card skill-panel">
+          <h3>Specializations</h3>
+          <ul class="skill-tags">
+            <li>Privacy Engineering</li>
+            <li>Audio Playback &amp; Streaming</li>
+            <li>Cross-platform Architecture</li>
+            <li>Continuous Integration Tooling</li>
+            <li>Web/Native Collaboration</li>
+            <li>AI Tooling (Cursor, Claude Code)</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="section-inner">
+      <h2>Education</h2>
+      <div class="education-grid">
+        <article class="glass-card education-card">
+          <h3>MSc with Distinction, Software Development</h3>
+          <p class="meta">University of Glasgow (2012 - 2013)</p>
+          <p>MSc project: built an iOS campus navigation app for university Estates and IT Services teams.</p>
+        </article>
+        <article class="glass-card education-card">
+          <h3>MSc, Sound Design</h3>
+          <p class="meta">University of Edinburgh (2009 - 2011)</p>
+          <p>MSc project: built a first-person 5.1 audio game in C# with Unity.</p>
+        </article>
+        <article class="glass-card education-card">
+          <h3>BA (Hons) 2:1, Music</h3>
+          <p class="meta">Newcastle University (2005 - 2008)</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <h2>Contact</h2>
+      <div class="glass-card">
+      <p>
+        I’m always interested in hearing about new opportunities, collaborations, and engineering discussions.
+      </p>
+      <div class="contact-actions">
+        <button class="contact-card contact-card--email" type="button" id="open-contact-email-modal" data-open-contact-email-modal aria-haspopup="dialog" aria-controls="contact-email-modal">
+          <span class="contact-card__icon" aria-hidden="true">{% include icon-mail.svg %}</span>
+          <span class="contact-card__text">
+            <span class="contact-card__title">Email</span>
+            <span class="contact-card__meta">Send a message</span>
+          </span>
+        </button>
+        <a class="contact-card contact-card--linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile">
+          <span class="contact-card__icon" aria-hidden="true">{% include icon-linkedin.svg %}</span>
+          <span class="contact-card__text">
+            <span class="contact-card__title">LinkedIn</span>
+            <span class="contact-card__meta">/in/{{ site.linkedin_username }}</span>
+          </span>
+        </a>
+        <a class="contact-card contact-card--github" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+          <span class="contact-card__icon" aria-hidden="true">{% include icon-github.svg %}</span>
+          <span class="contact-card__text">
+            <span class="contact-card__title">GitHub</span>
+            <span class="contact-card__meta">@{{ site.github_username }}</span>
+          </span>
+        </a>
+        <a class="contact-card contact-card--cv" href="/files/graeme_arthur_cv_2026.pdf" download="graeme_arthur_cv_2026.pdf" aria-label="Download CV PDF">
+          <span class="contact-card__icon" aria-hidden="true">{% include icon-download.svg %}</span>
+          <span class="contact-card__text">
+            <span class="contact-card__title">Download</span>
+            <span class="contact-card__meta">Full CV (PDF)</span>
+          </span>
+        </a>
+      </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="contact-modal" id="contact-email-modal" hidden>
+  <div class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-email-modal-title">
+    <button class="contact-modal__close" type="button" id="close-contact-email-modal" aria-label="Close email form">&times;</button>
+    <h3 class="contact-modal__title" id="contact-email-modal-title">Send me a message</h3>
+    <form class="contact-modal__form" id="contact-email-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="f36e4a21-c7a3-4e57-805c-0b44501678af">
+      <label class="contact-modal__field">
+        <span>Name</span>
+        <input type="text" name="name" autocomplete="name" required>
+      </label>
+      <label class="contact-modal__field">
+        <span>Email</span>
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label class="contact-modal__field">
+        <span>Message</span>
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <div class="contact-modal__actions">
+        <button type="button" class="contact-modal__button contact-modal__button--secondary" id="cancel-contact-email-modal">Cancel</button>
+        <button type="submit" class="contact-modal__button contact-modal__button--primary">Send email</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="contact-toast" id="contact-email-toast" role="status" aria-live="polite">
+  Message sent successfully.
+</div>
+
+<div class="carousel-modal" id="app-carousel-modal" hidden>
+  <div class="carousel-modal-inner" role="dialog" aria-modal="true" aria-label="App screenshot carousel">
+    <button class="carousel-close" type="button" aria-label="Close carousel">&times;</button>
+    <p class="carousel-title" id="carousel-app-title"></p>
+    <button class="carousel-nav carousel-prev" type="button" aria-label="Previous image">&#10094;</button>
+    <img class="carousel-image" id="carousel-image" src="" alt="">
+    <button class="carousel-nav carousel-next" type="button" aria-label="Next image">&#10095;</button>
+    <p class="carousel-caption" id="carousel-caption"></p>
+    <div class="carousel-dots" id="carousel-dots" aria-label="Carousel slide selector"></div>
+  </div>
 </div>

@@ -8,21 +8,44 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 
 /**
  * Basic styling
  */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background:
+      radial-gradient(circle at 10% 0%, rgba(201, 170, 255, 0.26), transparent 34%),
+      radial-gradient(circle at 90% 8%, rgba(125, 216, 248, 0.2), transparent 34%),
+      radial-gradient(circle at 42% 64%, rgba(201, 170, 255, 0.2), transparent 40%),
+      radial-gradient(circle at 82% 70%, rgba(125, 216, 248, 0.16), transparent 36%),
+      linear-gradient(
+        180deg,
+        #2a2843 0%,
+        #1f1d35 28%,
+        #121327 50%,
+        #1d1b33 67%,
+        #121223 100%
+      );
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    min-height: 100vh;
 }
 
 
@@ -82,7 +105,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-family: $heading-font-family;
+    font-weight: 600;
+    letter-spacing: -0.02em;
 }
 
 
@@ -99,8 +124,8 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $accent-pink;
+        text-decoration: none;
     }
 }
 
@@ -172,6 +197,17 @@ pre {
     }
 }
 
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 
 
 /**
@@ -192,15 +228,12 @@ pre {
  * Icons
  */
 .icon {
+    color: $grey-color;
 
     > svg {
         display: inline-block;
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }
