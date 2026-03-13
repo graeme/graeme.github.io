@@ -16,9 +16,9 @@ DuckDuckGo provides a privacy-focused browser, search engine, and security suite
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/ddg_vpn_iphone.PNG" alt="DuckDuckGo VPN on iPhone" width="240" />
-<img src="/images/projects/ddg_vpn-widget_iphone.PNG" alt="DuckDuckGo VPN Widget on iPhone" width="240" />
-<img src="/images/projects/ddg_sync_iphone.PNG" alt="DuckDuckGo Sync on iPhone" width="240" />
+<img src="/images/projects/ddg_vpn_iphone.png" alt="DuckDuckGo VPN on iPhone" width="240" />
+<img src="/images/projects/ddg_vpn-widget_iphone.png" alt="DuckDuckGo VPN Widget on iPhone" width="240" />
+<img src="/images/projects/ddg_sync_iphone.png" alt="DuckDuckGo Sync on iPhone" width="240" />
 </div>
 
 ### Highlights
@@ -37,8 +37,8 @@ DuckDuckGo provides a privacy-focused browser, search engine, and security suite
 [App Store →](https://apps.apple.com/app/id932496645)
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/mimi_1.PNG" alt="Mimi Hearing Test Interface" width="240" />
-<img src="/images/projects/mimi_2.PNG" alt="Mimi SDK Test Screen" width="240" />
+<img src="/images/projects/mimi_1_iphone.png" alt="Mimi Hearing Test Interface" width="240" />
+<img src="/images/projects/mimi_2_iphone.png" alt="Mimi SDK Test Screen" width="240" />
 </div>
 
 Led engineering on Mimi's iOS SDK and internal hearing test apps.  
@@ -58,15 +58,15 @@ Led engineering on Mimi's iOS SDK and internal hearing test apps.
 SoundCloud is a global platform for music sharing, streaming, and discovery, with over 100M installs.
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/sc_player_1_iphone.PNG" alt="SoundCloud Player Interface" width="240" />
-<img src="/images/projects/sc_player_2_iphone.PNG" alt="SoundCloud Player Interface 2" width="240" />
-<img src="/images/projects/sc_collection_iphone.PNG" alt="SoundCloud Collection" width="240" />
+<img src="/images/projects/sc_player_1_iphone.png" alt="SoundCloud Player Interface" width="240" />
+<img src="/images/projects/sc_player_2_iphone.png" alt="SoundCloud Player Interface 2" width="240" />
+<img src="/images/projects/sc_collection_iphone.png" alt="SoundCloud Collection" width="240" />
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/sc_home_iphone.PNG" alt="SoundCloud Home" width="240" />
-<img src="/images/projects/sc_profile_iphone.PNG" alt="SoundCloud Profile" width="240" />
-<img src="/images/projects/sc_album_iphone.PNG" alt="SoundCloud Album" width="240" />
+<img src="/images/projects/sc_home_iphone.png" alt="SoundCloud Home" width="240" />
+<img src="/images/projects/sc_profile_iphone.png" alt="SoundCloud Profile" width="240" />
+<img src="/images/projects/sc_album_iphone.png" alt="SoundCloud Album" width="240" />
 </div>
 
 ### Highlights
@@ -100,7 +100,7 @@ After FanDuel acquired Kotikan, I contributed briefly to their iOS app, focused 
 **Role**: iOS Engineer (via agency)
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/sl_topup_iphone.PNG" alt="Standard Life Top-up Interface" width="240" />
+<img src="/images/projects/sl_topup_iphone.png" alt="Standard Life Top-up Interface" width="240" />
 </div>
 
 Built the Standard Life iOS app from scratch at a digital agency.
@@ -118,12 +118,12 @@ Built the Standard Life iOS app from scratch at a digital agency.
 [App Store →](https://apps.apple.com/app/id415458524)
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/ss_prices_ipad.PNG" alt="Skyscanner Price Comparison" />
+<img src="/images/projects/ss_prices_ipad.png" alt="Skyscanner Price Comparison" />
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-<img src="/images/projects/ss_recents_iphone.PNG" alt="Skyscanner Recent Searches" width="240" />
-<img src="/images/projects/ss_cal_iphone.PNG" alt="Skyscanner Calendar" width="240" />
+<img src="/images/projects/ss_recents_iphone.png" alt="Skyscanner Recent Searches" width="240" />
+<img src="/images/projects/ss_cal_iphone.png" alt="Skyscanner Calendar" width="240" />
 </div>
 
 Skyscanner is a global travel search app used by tens of millions of travellers.
