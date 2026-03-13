@@ -66,12 +66,16 @@
 
 @include media-query($on-palm) {
     .site-header .wrapper {
-        justify-content: flex-start;
+        position: relative;
     }
 
     .menu-toggle {
         display: block;
-        margin-left: auto;
+        position: absolute;
+        right: $spacing-unit / 2;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 0;
     }
 
     .site-nav {
