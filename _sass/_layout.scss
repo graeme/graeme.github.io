@@ -1181,6 +1181,9 @@
 
 .toolkit-details summary {
     list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: $brand-color;
     font-size: 0.92rem;
     cursor: pointer;
@@ -1189,6 +1192,11 @@
 
 .toolkit-details summary::-webkit-details-marker {
     display: none;
+}
+
+.toolkit-details[open] .projects-chevron {
+    transform: rotate(225deg) translateY(-1px);
+    border-color: $accent-pink;
 }
 
 .toolkit-details .skill-tags {
