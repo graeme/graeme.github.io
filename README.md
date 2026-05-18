@@ -26,4 +26,4 @@ Requires Node.js (`npx` downloads the Sass compiler on first run).
 
 ## Deploy
 
-Pushed to `master` on this repo; GitHub Pages serves the files as-is (`.nojekyll` disables Jekyll). Custom domain via [`CNAME`](CNAME).
+Pushed to `main` on this repo; GitHub Pages serves the files as-is (`.nojekyll` disables Jekyll). Custom domain via [`CNAME`](CNAME).
