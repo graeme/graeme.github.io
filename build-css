@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")"
+exec npx --yes sass css/main.scss:css/main.css --style=expanded --load-path=_sass
